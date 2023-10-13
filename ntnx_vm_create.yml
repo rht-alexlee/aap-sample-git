@@ -2,7 +2,7 @@
 - name: Create VM on Nutanix
   hosts: localhost
   gather_facts: false
-
+ 
   tasks:
     - name: Create image json file from j2 template
       ansible.builtin.template:
