@@ -1,0 +1,8 @@
+---
+- name: snmp ro/rw string configurations
+  hosts: cisco
+  gather_facts: no
+
+  tasks:
+
+    - name: ensure that the desired snmp strings are present
